@@ -6,7 +6,7 @@ import { cn } from '@/lib/styles/utils';
 
 import '@/lib/styles/globals.css';
 
-const APP_NAME = 'nextarter-tailwind';
+const APP_NAME = 'nextarter-tremor';
 
 export const metadata: Metadata = {
   title: APP_NAME,
@@ -26,12 +26,12 @@ export const metadata: Metadata = {
   },
   themeColor: '#FFFFFF',
   openGraph: {
-    url: 'https://nextarter-tailwind.sznm.dev',
-    title: 'nextarter-tailwind',
+    url: 'https://nextarter-tremor.sznm.dev',
+    title: 'nextarter-tremor',
     description: 'Next.js + TailwindCSS v3 + TypeScript template',
     images: {
-      url: 'https://og-image.sznm.dev/**nextarter-tailwind**.sznm.dev.png?theme=dark&md=1&fontSize=125px&images=https%3A%2F%2Fsznm.dev%2Favataaars.svg&widths=250',
-      alt: 'nextarter-tailwind.sznm.dev og-image',
+      url: 'https://og-image.sznm.dev/**nextarter-tremor**.sznm.dev.png?theme=dark&md=1&fontSize=125px&images=https%3A%2F%2Fsznm.dev%2Favataaars.svg&widths=250',
+      alt: 'nextarter-tremor.sznm.dev og-image',
     },
   },
   twitter: {

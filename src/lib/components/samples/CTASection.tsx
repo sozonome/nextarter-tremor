@@ -2,7 +2,7 @@
 
 import { Button } from '@tremor/react';
 
-const repoName = 'sozonome/nextarter-tailwind';
+const repoName = 'sozonome/nextarter-tremor';
 
 const CTASection = () => {
   return (
