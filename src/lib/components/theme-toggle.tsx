@@ -1,16 +1,16 @@
 'use client';
 
+import { Button } from '@tremor/react';
 import { Moon, Sun } from 'lucide-react';
 import { useTheme } from 'next-themes';
-
-import { Button } from '@/lib/components/ui/button';
 
 export function ThemeToggle() {
   const { setTheme, theme } = useTheme();
 
   return (
     <Button
-      variant="ghost"
+      variant="light"
+      className="inline-flex items-center justify-center"
       size="sm"
       onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')}
     >

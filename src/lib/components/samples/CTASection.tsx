@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
-import { Button } from '@/lib/components/ui/button';
+
+import { Button } from '@tremor/react';
 
 const repoName = 'sozonome/nextarter-tailwind';
 
@@ -35,10 +36,7 @@ const CTASection = () => {
       </div>
 
       <div className="flex items-center gap-2">
-        <Button
-          asChild
-          className="bg-gradient-to-br from-gray-100 to-green-200 font-semibold text-green-700 hover:from-gray-200 hover:to-green-200 hover:text-green-800"
-        >
+        <Button>
           <a
             href={`https://github.com/${repoName}/generate`}
             target="_blank"
@@ -47,7 +45,7 @@ const CTASection = () => {
             Use This Template
           </a>
         </Button>
-        <Button asChild variant="link">
+        <Button variant="light">
           <a
             className="rounded-3xl p-2 text-xs font-semibold"
             href={`https://github.com/${repoName}`}

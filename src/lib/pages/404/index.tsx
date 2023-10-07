@@ -1,7 +1,6 @@
+import { Button, Text, Title } from '@tremor/react';
 import Image from 'next/image';
 import Link from 'next/link';
-
-import { Button } from '@/lib/components/ui/button';
 
 const Page404 = () => {
   return (
@@ -13,7 +12,7 @@ const Page404 = () => {
           height={320}
           alt="404 Illustration"
         />
-        <Button variant="link" asChild>
+        <Button variant="light">
           <a href="https://storyset.com/web" className="text-xs">
             Web illustrations by Storyset
           </a>
@@ -22,12 +21,12 @@ const Page404 = () => {
 
       <div className="grid gap-6 text-center">
         <div className="grid gap-2">
-          <h3>Page not Found</h3>
-          <p>It&apos;s Okay!</p>
+          <Title>Page not Found</Title>
+          <Text>It&apos;s Okay!</Text>
         </div>
 
         <div>
-          <Button asChild>
+          <Button>
             <Link href="/">Let&apos;s Go Back</Link>
           </Button>
         </div>
